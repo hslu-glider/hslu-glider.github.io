@@ -15,9 +15,9 @@ nav {
 	
 nav a{
 	cursor: pointer;
-	color: blue;
+	color: aqua;
 }
-	
+	/*
 aside{
 	margin: 0 0 0;
 	float: left;
@@ -26,9 +26,9 @@ aside{
 	height: 350px;
 	padding-top: 1em;
 	}
-	
+	*/
 #content {  
-	margin: 0 151px 0;
+	margin: 0 8px 0;
 	margin-top: 50px;
 	width: 1000px;
 	height: 300px;
@@ -49,11 +49,11 @@ a{
 }
 
 a:link{
-	color:cyan;
+	color:navy;
 }
 
 a:visited{
-	color: blue;
+	color: navy;
 	text-decoration: none;
 }
 
@@ -64,10 +64,11 @@ a:hover{
 ul li 
 	{clear: none; 
 	float: left;
-	list-style-type: none;
+	list-style-type: circle;
+	color:navy;	
 	margin-right: 2em;
 	margin-bottom: 0.5em;}
-	
+	/*
 #button{
 	background-color: transparent;
 	border:none;
@@ -82,3 +83,4 @@ ul li
 #button:hover{
 	color: grey;
 }
+*/
